@@ -13,9 +13,7 @@ function nestedTarget() {
 function deepestChild() {
   var parent = document.getElementById('grand-node');
   while (parent.innerHTML === '') {
-    if (parent.innerHTML === '') {
       parent = document.getElementById('grand-node').childNodes[0];
-    }
   }
   return parent;
 }
