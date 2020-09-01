@@ -17,9 +17,11 @@ function deepestChild() {
 
 // increases ranks in .ranked-list by n
 function increaseRankBy(n) {
+  // assign all li elements within unordered list with a class of ranked-list to var
   var rankedLists = document.querySelectorAll('ul.ranked-list li');
   // loop through
   for (var i = 0; i < rankedLists.length; i++) {
+    // take the innerHTML and assign the number plus n to the variable to adjust by n
     rankedLists[i].innerHTML = parseInt(rankedLists[i].innerHTML) + n;
   }
 }
