@@ -6,7 +6,7 @@ function getFirstSelector(selector) {
 
 // pulls .target out of #nested elements
 function nestedTarget() {
-  var answer = document.getElementById('nested').querySelectorAll('div.target');
+  var answer = document.getElementById('nested').querySelector('div.target');
   return answer;
 }
 
