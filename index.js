@@ -12,7 +12,7 @@ function nestedTarget() {
 // returns the deepest nested child in #grand-node
 function deepestChild() {
   return document.getElementById('grand-node').querySelector(div);
-  console.log("hello");
+  alert('hello');
 }
 
 // increases ranks in .ranked-list by n
