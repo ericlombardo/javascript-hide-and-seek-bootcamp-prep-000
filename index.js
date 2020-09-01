@@ -6,5 +6,5 @@ function getFirstSelector(selector) {
 
 // pulls target out of nested elements
 function nestedTarget() {
-  
+
 }
