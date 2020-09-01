@@ -22,7 +22,4 @@ function increaseRankBy(n) {
   for (var i = 0; i < rankedLists.length; i++) {
     rankedLists[i].innerHTML = parseInt(rankedLists[i].innerHTML) + n;
   }
-  // for eached ranked list
-    // innerHTML = parseInt(innerHTML) + n
-  }
 }
