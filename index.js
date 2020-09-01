@@ -15,7 +15,7 @@ function deepestChild() {
   while (parent.hasChildNodes !== false) {
     if (parent.hasChildNodes() === true) {
       parent = parent.firstChild();
-    }  
+    }
   }
   return parent;
 }
