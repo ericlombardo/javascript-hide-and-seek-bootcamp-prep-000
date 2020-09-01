@@ -11,13 +11,7 @@ function nestedTarget() {
 
 // returns the deepest nested child in #grand-node
 function deepestChild() {
-  var parent = document.getElementById('grand-node');
-  while (parent.hasChildNodes !== false) {
-    if (parent.hasChildNodes() === true) {
-      parent = parent.firstChild();
-    }
-  }
-  return parent;
+  return document.getElementById('grand-node').querySelector(div.text);
 }
 
 // increases ranks in .ranked-list by n
