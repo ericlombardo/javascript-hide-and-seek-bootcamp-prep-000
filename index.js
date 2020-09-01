@@ -6,7 +6,7 @@ function getFirstSelector(selector) {
 
 // pulls .target out of #nested elements
 function nestedTarget() {
-
+  return document.getElementById(nested).querySelectorAll(div.target);
 }
 
 // returns the deepest nested child in #grand-node
